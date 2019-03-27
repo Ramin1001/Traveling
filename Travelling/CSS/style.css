@@ -1,0 +1,309 @@
+
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+#broshure{
+    background-color: #efefef;
+}
+
+
+.container {
+  margin: auto;
+  padding: 60px 0px;
+}
+
+
+
+.row {
+  width: 1140px;
+  height: 460px;
+  margin: auto;
+}
+
+
+#broshure .col-md-6{
+position: relative;
+background-color: #ffffff;
+}
+
+
+
+.col-md-6 .topic{
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  padding: 64px 16px;
+}
+
+.gilda {
+  font-family: 'Gilda Display', serif;
+  font-size: 32px;
+  margin: auto;
+  width: 300px;
+  display: block;
+}
+
+.col-md-6 p{
+    text-align: center;
+    padding: 48px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 100;
+}
+    
+}
+.image{
+    padding: 0px;
+}
+.image img{
+    width: 555px;
+    height: 456px;
+    object-fit: cover;
+}
+.btn-MainRed {
+  display: inline;
+  position: absolute;
+  background-color: white;
+  color: #709faf !important;
+  border: 2px solid #709faf;
+  padding: 10px 20px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.4 ease-in-out;
+  margin: 20px auto;
+  left: 215px;
+}
+
+
+
+.btn-MainRed:hover{
+  color: white !important;
+  background-color: #709faf !important;
+  border-color: #709faf !important;
+  transition: all 0.4 ease-in-out;
+}
+
+#middle{
+    width: 100%;
+    height: 950px;
+    background-position: 80% 80%;
+    background-image: none;
+    position: relative;
+    background-attachment: scroll;
+    position: relative;
+   
+}
+.temneye{
+    background-image: url(../images/background9.jpg);
+    background-size: cover;
+     background-position: 50% 50%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-attachment: fixed;
+}
+#middle .container{
+    width: 1140px;
+}
+.container .head{
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 54px;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.card-deck{
+    color: none;
+}
+.card{
+    height: 670px;
+    position: relative;
+}
+.image_box{
+    width: 358px;
+    height: 258px;
+    overflow: hidden;
+    text-align: center;
+    flex-shrink: 0;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    min-width: 50%;
+    min-height: 50%;
+    transition: all .5s;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box!important;
+    vertical-align: middle;
+}
+.card img:hover{
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+.card-body h2{
+    font-family: 'Gilda Display', serif;
+    margin: 0px;
+}
+.card-body .info_box{
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+.info_box i{
+    padding-right: 5px;
+}
+.info_box span{
+    padding-right: 10px;
+}
+.card-body{
+    padding: 32px 32px 15px;
+    height: 480px;
+}
+.card-text{
+    height: 120px;
+}
+.card .btn-MainRed{
+    position: absolute;
+    box-sizing: content-box;
+   left: 30px;
+    transition: all 0.2s ease-in-out;
+}
+.card .link{
+    float: right;
+}
+.card a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #7ca7b5;
+}
+.card a:hover{
+    color: #426977
+}
+.card-footer{
+     padding-bottom: 15px;
+    background-color: white;
+      border-style: none; 
+    height: 120px
+}
+.card-footer .line{
+     border-top: 1px solid #efefef;
+    padding-top: 20px;
+}
+.card-footer i{
+    padding-left: 5px;
+     font-size: 25px;
+    color: #767676;
+}
+.card-footer .link i{
+    font-size: 18px;
+     color: #7ca7b5;
+    
+}
+#comment .col-md-4{
+    width: 380px;
+    padding: 0px 15px;
+}
+.head_title{
+    font-family: 'Gilda Display', serif;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.head_title h1{
+    font-size: 3.5rem;
+    color: #333;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 48px;
+}
+.text p{
+    background: #a3c6d2;
+    padding: 2rem;
+    position: relative;
+    margin: 0px;
+    line-height: 1.7rem;
+    font-weight: 100;
+}
+.text p::before{
+    position: absolute;
+    left: calc(50% - 7px);
+    bottom: -7px;
+    width: 14px;
+    height: 14px;
+    transform: rotate(45deg);
+    background-color: #a3c6d2;
+    content: "";
+    display: block;
+}
+.user_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    border-top: none;
+    padding: 1.25rem;
+    background: transparent;
+}
+.imagees{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.imagees img{
+    width: 100%;
+    height: 100%;
+    min-width: 50%;
+    min-height: 50%;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+.author_name span:first-child{
+    font-family: 'Gilda Display', serif;
+    font-size: 1.9rem;
+    color: #333;
+}
+.author_name span:last-child{
+    font-size: 0.9rem;
+    color: #709faf;
+}
+.alt_fixed{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    right: 10px;
+    bottom: 10px;
+    border-radius: 3px;
+}
+.alt_fixed a{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    outline-style: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.alt_fixed a:hover{
+    background: rgba(0, 0, 0, 0.6);
+     transition: all .3s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */
